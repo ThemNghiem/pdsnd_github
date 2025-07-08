@@ -5,17 +5,6 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
-def func_x(num):
-    if num == 1:
-        return a()
-    elif num == 2:
-        return b()
-    elif num == 3:
-        return c()
-    elif num == 4:
-        return d()
-    elif num == 5:
-        return e()
 
 def get_filters():
     """
