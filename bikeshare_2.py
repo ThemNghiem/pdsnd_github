@@ -6,6 +6,12 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+def func_x(is_chubby):
+    if is_chubby is True:
+        return a()
+    elif is_chubby is False:
+        return b()
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
